@@ -1,0 +1,130 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Launch SalesEssentials",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13590108900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the url",
+            "match": {
+              "location": "SalesPlay_StepDef_Page.launch_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15107727900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Login with valid admin credentials",
+            "match": {
+              "location": "SalesPlay_StepDef_Page.login_with_valid_admin_credentials()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 84,
+        "name": "Create and Publish Manage Assets",
+        "description": "",
+        "id": "regressiontest-suites2;create-and-publish-manage-assets",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1271361400,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "Click on Manage Assets",
+            "match": {
+              "location": "ManageAssets_StepDef_Page.click_on_Manage_Assets()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12557930200,
+              "error_message": "java.lang.AssertionError: expected:\u003c[Brand Rep, Coverage Rep, Digital Demand Rep]\u003e but was:\u003c[]\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.ManageAssets.Publish_Assets.SellerRoleDD_Val(Publish_Assets.java:104)\r\n\tat com.SE_Admin_StepDef_files.ManageAssets_StepDef_Page.create_New_Manage_Assets(ManageAssets_StepDef_Page.java:26)\r\n\tat ✽.Then Create New Manage Assets(1_SE_Admin.feature:87)\r\n",
+              "status": "failed"
+            },
+            "line": 87,
+            "name": "Create New Manage Assets",
+            "match": {
+              "location": "ManageAssets_StepDef_Page.create_New_Manage_Assets()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 88,
+            "name": "Submit for Review Manage Assets",
+            "match": {
+              "location": "ManageAssets_StepDef_Page.submit_for_Review_Manage_Assets()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 89,
+            "name": "Publish Manage Assets",
+            "match": {
+              "location": "ManageAssets_StepDef_Page.publish_Manage_Assets()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 90,
+            "name": "Archive the Manage Assets",
+            "match": {
+              "location": "ManageAssets_StepDef_Page.archive_the_Manage_Assets()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 91,
+            "name": "Preview the Manage Assets",
+            "match": {
+              "location": "ManageAssets_StepDef_Page.preview_the_Manage_Assets()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 83,
+            "name": "@Test9"
+          }
+        ]
+      }
+    ],
+    "name": "Regressiontest suites2",
+    "description": "",
+    "id": "regressiontest-suites2",
+    "keyword": "Feature",
+    "uri": "1_SE_Admin.feature"
+  }
+]

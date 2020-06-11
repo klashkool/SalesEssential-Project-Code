@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="42.527128">
+<testcase classname="Regressiontest suites2" name="Create and Publish Manage Assets" time="42.527128">
+<failure message="java.lang.AssertionError: expected:&lt;[Brand Rep, Coverage Rep, Digital Demand Rep]&gt; but was:&lt;[]&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:118)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at com.ManageAssets.Publish_Assets.SellerRoleDD_Val(Publish_Assets.java:104)&#13;&#10;&#9;at com.SE_Admin_StepDef_files.ManageAssets_StepDef_Page.create_New_Manage_Assets(ManageAssets_StepDef_Page.java:26)&#13;&#10;&#9;at ✽.Then Create New Manage Assets(1_SE_Admin.feature:87)&#13;&#10;"><![CDATA[Given Launch the url........................................................passed
+Then Login with valid admin credentials.....................................passed
+Given Click on Manage Assets................................................passed
+Then Create New Manage Assets...............................................failed
+Then Submit for Review Manage Assets........................................skipped
+Then Publish Manage Assets..................................................skipped
+Then Archive the Manage Assets..............................................skipped
+And Preview the Manage Assets...............................................skipped
+
+StackTrace:
+java.lang.AssertionError: expected:<[Brand Rep, Coverage Rep, Digital Demand Rep]> but was:<[]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.ManageAssets.Publish_Assets.SellerRoleDD_Val(Publish_Assets.java:104)
+	at com.SE_Admin_StepDef_files.ManageAssets_StepDef_Page.create_New_Manage_Assets(ManageAssets_StepDef_Page.java:26)
+	at ✽.Then Create New Manage Assets(1_SE_Admin.feature:87)
+]]></failure>
+</testcase>
+</testsuite>
